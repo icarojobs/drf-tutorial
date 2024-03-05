@@ -21,3 +21,8 @@ migrate:
 	source env/bin/activate
 	@python manage.py makemigrations
 	@python manage.py migrate
+
+.PHONY: createsuperuser
+createsuperuser:
+	@echo "--> Creating new super user for django admin"
+	@python manage.py createsuperuser --username admin --email admin@admin.com
