@@ -1,0 +1,15 @@
+# Environment
+.env/
+.venv/
+
+# Compiled byte-code
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Development
+.DS_Store
+.idea/
+idea/
+.idea
+.vscode/
