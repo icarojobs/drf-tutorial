@@ -1,6 +1,7 @@
 # Environment
 .env/
 .venv/
+db.sqlite3
 
 # Compiled byte-code
 __pycache__/
@@ -13,3 +14,4 @@ __pycache__/
 idea/
 .idea
 .vscode/
+.ipynb_checkpoints/
